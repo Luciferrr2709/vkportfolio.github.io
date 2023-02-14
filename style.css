@@ -230,3 +230,12 @@ body{
 .profile-details .download-btn i:hover{
     transform: scale(1.1);
 }
+.about h1{
+    color: cyan;
+}
+.about h2{
+    color: gold;
+}
+.work .workbox .desc h3{
+    color: lightskyblue;
+}
