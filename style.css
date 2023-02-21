@@ -20,7 +20,7 @@
     font-family:poppins,sans-serif;
 }
 body{
-    background: linear-gradient(45deg,var(--purple-Light), var(--skyblue),var(--purple-Light));
+    background: linear-gradient(45deg,#000000, #5e5e5e,#000000);
 }
 .container{
     display: flex;
