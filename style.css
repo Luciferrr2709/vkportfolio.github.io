@@ -255,7 +255,7 @@ body{
     justify-content: center;
     height: 50px;
     width: 300px;
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
     overflow: hidden;
 }
 .typingcont .text{
