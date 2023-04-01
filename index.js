@@ -1,7 +1,5 @@
-
 const text = document.querySelector(".sec-text");
-
-const textLoad = () => {
+const textLoad1 = () => {
     setTimeout(() =>{
         text.textContent = "Python Developer";
     }, 0);
@@ -14,7 +12,7 @@ const textLoad = () => {
     setTimeout(() =>{
         text.textContent = "Machine Learning Intermediate";
     }, 12000);
-}
+    }
 
-textLoad();
-setInterval(textLoad, 12000);
+    textLoad1();
+    setInterval(textLoad1, 16000);
