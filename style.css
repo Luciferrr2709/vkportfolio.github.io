@@ -249,3 +249,44 @@ body{
 .contact-info .content h5{
     color: beige;
 }
+.typingcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    border: 2px solid red; 
+    overflow: hidden;
+}
+.typingcont .text{
+    position: relative   ;
+    color: #005bc5;
+    font-size: 15px;
+    font-weight: 700;
+}
+.typingcont .first-text{
+    color: white;
+
+}
+.typingcont .sec-text{
+    margin-left: 10px;
+}
+.typingcont .sec-text:before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    border-left: 1.5px solid #005bc5;
+    animation: animate 4s steps(19) infinite;
+}
+@keyframes animate{
+    40%,60%{
+        left:100%;
+    }
+    100%{
+        left:0%;
+    }
+}
