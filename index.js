@@ -12,7 +12,7 @@ const textLoad1 = () => {
     setTimeout(() =>{
         text.textContent = "Machine Learning Intermediate";
     }, 12000);
-    }
+}
 
-    textLoad1();
-    setInterval(textLoad1, 16000);
+textLoad1();
+setInterval(textLoad1, 16000);
