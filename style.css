@@ -262,15 +262,27 @@ body{
 }
 .wrapper .static-text{
     color:white;
-    font-size: 15px;
+    font-size: 17px;
 }
 .wrapper .dynamic-text{
     margin-left: 7px;
+    /* overflow: hidden; */
+    line-height: 20px;
+    height: 19px;
 }
 .dynamic-text li{
     list-style: none;
-    font-size: 15px;
+    font-size: 20px;
     color: var(--dark-magenta);
+    top: 0;
+    padding: 5px;
+    position: relative;
+    animation: slide 8s steps(4) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -150px;
+    }
 }
 .dynamic-text li span{
     position: relative;
@@ -281,6 +293,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
+    background: #111;
     border-left: 2px solid var(--dark-magenta);
     animation: animate 2s steps(20) infinite;
 }
