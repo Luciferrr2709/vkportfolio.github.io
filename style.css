@@ -253,40 +253,44 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 80px;
     width: 300px;
-    /* border: 2px solid red;  */
-    overflow: hidden;
+    border: 2px solid red;
 }
-.typingcont .text{
-    position: relative   ;
-    color: var(--dark-pink);
+.wrapper{
+    display: inline-flex;
+}
+.wrapper .static-text{
+    color:white;
     font-size: 15px;
-    font-weight: 700;
 }
-.typingcont .first-text{
-    color: white;
-
+.wrapper .dynamic-text{
+    margin-left: 7px;
 }
-.typingcont .sec-text{
-    margin-left: 10px;
+.dynamic-text li{
+    list-style: none;
+    font-size: 15px;
+    color: var(--dark-magenta);
 }
-.typingcont .sec-text:before{
+.dynamic-text li span{
+    position: relative;
+}
+.dynamic-text li span::after{
     content: "";
-    position:absolute;
-    top: 0;
+    position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #111;
-    border-left: 1.5px solid var(--dark-pink);
-    animation: animate 4s steps(19) infinite;
+    border-left: 2px solid var(--dark-magenta);
+    animation: animate 2s steps(20) infinite;
 }
 @keyframes animate{
     40%,60%{
-        left:100%;
+        left: 100%;
     }
     100%{
-        left:0%;
+        left:100%;
+        margin: 0 0;
+        
     }
 }
