@@ -258,7 +258,7 @@ body{
     /* border: 2px solid red;  */
     overflow: hidden;
 }
-.typingcont .text{
+/* .typingcont .text{
     position: relative   ;
     color: var(--dark-pink);
     font-size: 15px;
@@ -289,4 +289,4 @@ body{
     100%{
         left:0%;
     }
-}
+} */
