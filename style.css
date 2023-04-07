@@ -76,7 +76,7 @@ body{
 }
 .profile-details .intro h4{
     background: #1d1d1d;
-    color: greenyellow;
+    color:var(--dark-magenta);
     font-weight: 400;
     border-radius: 4px;
     padding: 5px 10px;
@@ -90,7 +90,7 @@ body{
 }
 .profile-details .intro .social i{
     color: #ddd;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #222;
     margin: 5px;
     height: 35px;
