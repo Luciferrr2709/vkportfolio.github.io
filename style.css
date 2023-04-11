@@ -33,7 +33,7 @@ body{
 }
 .profile-card{
     background: #111;
-    width: 370px;
+    width: 365px;
     padding: 3rem;
     border-radius: 10px;
     min-height: 400px;
@@ -106,9 +106,9 @@ body{
 }
 .profile-details .contact-info{
     background-color: #1d1d1d;
-    padding: 15px;
+    padding: 5px;
     border-radius: 10px;
-    width: 100%;
+    width: 110%;
 
 }
 .profile-details .contact-info .row{
