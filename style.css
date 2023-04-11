@@ -33,10 +33,10 @@ body{
 }
 .profile-card{
     background: #111;
-    width: 400px;
+    width: 380px;
     padding: 3rem;
     border-radius: 10px;
-    min-height: 380px;
+    min-height: 400px;
     position: relative;
     color: #fff;
     margin: 15px;
